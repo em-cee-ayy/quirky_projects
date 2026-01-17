@@ -31,8 +31,8 @@ export default function FortuneCookie() {
     return (
         <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-4 font-sans text-center">
             <header className="mb-8">
-                <h1 className="text-3xl font-bold text-pink-600 mb-2">mehhh's daily boost 🌸</h1>
-                <p className="text-gray-600 italic">tap the cookie to see how much you are loved!</p>
+                <h1 className="text-3xl font-bold text-pink-600 mb-2">daily boost for mehhh 🌸</h1>
+                <p className="text-gray-600 italic">tap the cookie for a reminder of how much you are loved!</p>
             </header>
 
             <div className="relative flex items-center justify-center h-64 w-full">
@@ -65,7 +65,7 @@ export default function FortuneCookie() {
                                 onClick={resetCookie}
                                 className="mt-6 px-4 py-2 bg-pink-500 text-white rounded-full text-sm font-bold hover:bg-pink-600 transition-colors"
                             >
-                                get another boost ✨
+                                need another boost? ✨
                             </button>
                         </motion.div>
                     )}
